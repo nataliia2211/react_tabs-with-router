@@ -37,7 +37,9 @@ export const TabsPage = ({}) => {
           {activeTab?.content}
         </div>
       ) : (
-        <p>Please select a tab</p>
+        <div className="block" data-cy="TabContent">
+          Please select a tab
+        </div>
       )}
     </div>
   );
